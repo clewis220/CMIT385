@@ -1,0 +1,104 @@
+/* General Body Styles */
+body {
+    background-color: #f5f5f5; /* Light gray background for easy readability */
+    color: #333; /* Dark text color for contrast */
+    font-family: Verdana, Arial, sans-serif; /* Font family with fallbacks */
+    margin: 0;
+    padding: 0;
+}
+
+/* Page Header Styles */
+header {
+    background-color: #007BFF; /* Blue background for the header */
+    color: white; /* White text color for contrast */
+    text-align: center; /* Center-align text */
+    padding: 20px;
+}
+
+/* H1 Heading Style */
+h1 {
+    color: #ffffff; /* White text color */
+    font-family: 'Arial', sans-serif; /* Font family for headings */
+    text-align: center; /* Center-align heading */
+    font-size: 2.5em; /* Font size for H1 */
+    margin: 0; /* Remove default margin */
+}
+
+/* H2 Heading Style */
+h2 {
+    color: #333333; /* Dark text color for H2 */
+    font-family: 'Arial', sans-serif; /* Font family for headings */
+    text-align: center; /* Center-align heading */
+    font-size: 2em; /* Font size for H2 */
+    margin: 20px 0; /* Margin above and below */
+}
+
+/* Paragraph Style */
+p {
+    color: #666666; /* Medium gray text color */
+    font-family: 'Verdana', sans-serif; /* Font family for paragraphs */
+    font-size: 1em; /* Font size for paragraphs */
+    margin: 0 0 20px 0; /* Margin below paragraph */
+}
+
+/* ID Attribute Example */
+#artist-image {
+    max-width: 300px; /* Maximum width for the image */
+    border-radius: 10px; /* Rounded corners for the image */
+    display: block; /* Ensure image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* CLASS Attribute Example */
+.album-cover {
+    max-width: 150px; /* Maximum width for album covers */
+    border-radius: 5px; /* Rounded corners for album covers */
+}
+
+/* Wrapper or Content Container */
+.wrapper {
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Padding inside the container */
+}
+
+/* Page Footer Styles */
+footer {
+    background-color: #007BFF; /* Blue background for the footer */
+    color: white; /* White text color for contrast */
+    text-align: center; /* Center-align text */
+    padding: 10px; /* Padding inside the footer */
+    position: fixed; /* Fixed position at the bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /* Align to the bottom */
+}
+
+/* Navigation Styles */
+nav {
+    text-align: center; /* Center-align navigation links */
+    margin: 20px 0; /* Margin above and below navigation */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Margin between navigation links */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007BFF; /* Blue color for links */
+    font-weight: bold; /* Bold text for links */
+}
+
+/* Clear floats after images */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
